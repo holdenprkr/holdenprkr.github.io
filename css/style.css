@@ -2438,7 +2438,7 @@ h3 {
   /* line 6, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_footer.scss */
   .footer .footer_top {
     padding-top: 50px;
-    padding-bottom: 30px;
+    padding-bottom: 15px;
   }
 }
 
@@ -3003,7 +3003,7 @@ h3 {
 @media (max-width: 767px) {
   /* line 1, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_discuss.scss */
   .discuss_projects {
-    padding: 50px 0 50px 0;
+    padding: 50px 0 0px 0;
   }
 }
 
