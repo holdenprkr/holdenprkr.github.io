@@ -15,6 +15,9 @@
 
 .footerNav {
     padding-top: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
 }
 
 .fa {
@@ -60,8 +63,4 @@
 
 .navigations {
     margin: 0 auto !important;
-}
-
-body {
-    margin-right: -2px important;
 }

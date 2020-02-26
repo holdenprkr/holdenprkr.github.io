@@ -2446,14 +2446,13 @@ h3 {
   /* line 6, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_footer.scss */
   .footer .footer_top {
     padding-top: 50px;
-    padding-bottom: 60px;
+    padding-bottom: 10px;
   }
 }
 
 /* line 20, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_footer.scss */
 .footer .footer_top .menu_links ul li {
   display: inline-block;
-  margin-right: 46px;
 }
 
 @media (max-width: 767px) {
