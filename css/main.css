@@ -21,3 +21,21 @@
     text-align: center !important; 
     font-size: 3em;
 }
+
+@media (max-width: 1000px) {
+    .slicknav_icon {
+        display: none !important;
+    }
+
+    .slicknav_menu {
+        display: none !important;
+    }
+
+    #sticky-header {
+        display: none !important;
+    }
+}
+
+.navigations {
+    margin: 0 auto !important;
+}
