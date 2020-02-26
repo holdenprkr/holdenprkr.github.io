@@ -2,3 +2,22 @@
     color: white;
     font-size: 2em;
 }
+
+.cryptoCurrentPrev {
+    width: 80%;
+}
+
+.cryptoCurrentDesc {
+    margin-top: 18px;
+    text-align: left;
+    color: white !important;
+}
+
+.contactMeButton {
+    border-radius: 7.5px !important;
+}
+
+.social_links {
+    text-align: center !important; 
+    font-size: 3em;
+}
