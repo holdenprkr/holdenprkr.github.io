@@ -93,13 +93,11 @@
 @media (max-width: 1200px) {
     .headerPicture {
         width: 40%;
-        transform: rotate(90deg);
     }
 }
 @media (max-width: 1000px) {
     .headerPicture {
         width: 50%;
-        transform: rotate(90deg);
     }
 }
 
