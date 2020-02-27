@@ -34,7 +34,7 @@
 }
 
 .social_links {
-    text-align: center !important; 
+    text-align: center !important;
     font-size: 3em;
 }
 
@@ -87,7 +87,6 @@
     margin: 0 auto 20px auto !important;
     border-radius: 50%;
     width: 30%;
-    transform: rotate(90deg);
 }
 
 @media (max-width: 1200px) {
@@ -95,6 +94,7 @@
         width: 40%;
     }
 }
+
 @media (max-width: 1000px) {
     .headerPicture {
         width: 50%;
