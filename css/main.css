@@ -82,3 +82,25 @@
 .navigations {
     margin: 0 auto !important;
 }
+
+.headerPicture {
+    margin: 0 auto 20px auto !important;
+    border-radius: 50%;
+    width: 30%;
+}
+
+@media (max-width: 1200px) {
+    .headerPicture {
+        width: 40%;
+    }
+}
+@media (max-width: 1000px) {
+    .headerPicture {
+        width: 50%;
+    }
+}
+
+.headerContent {
+    z-index: 1;
+    position: relative;
+}
