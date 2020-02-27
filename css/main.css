@@ -13,13 +13,6 @@
     flex-direction: row;
 }
 
-.footerNav {
-    padding-top: 10px;
-    text-align: center;
-    display: flex;
-    justify-content: space-around;
-}
-
 @media (max-width: 767px) {
     .footerNav {
         justify-content: space-between;
@@ -67,14 +60,18 @@
     }
 }
 
-@media (max-width: 475px) {
-    .navigation {
-        flex-direction: column;
-       /* justify-content: space-around !important; */
+@media (min-width: 801px) {
+    .footerNav {
+        display: none
     }
+}
 
-    .navInd {
-        margin-bottom: 10px !important;
+@media (max-width: 800px) {
+    .footerNav {
+        padding-top: 10px;
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
     }
 
     .sticky {
@@ -83,6 +80,5 @@
 }
 
 .navigations {
-    display: flex;
     margin: 0 auto !important;
 }

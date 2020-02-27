@@ -1078,7 +1078,25 @@ h3 {
 .header-area .main-header-area .main-menu ul li {
   display: inline-block;
   position: relative;
-  margin: 0 10px;
+  margin: 0 40px;
+}
+
+@media (max-width: 1200px) {
+  .header-area .main-header-area .main-menu ul li {
+    margin: 0 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .header-area .main-header-area .main-menu ul li {
+    margin: 0 20px;
+  }
+}
+
+@media (max-width: 420px) {
+  .header-area .main-header-area .main-menu ul li {
+    margin: 0 5px;
+  }
 }
 
 /* line 157, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_header.scss */
@@ -2995,7 +3013,7 @@ h3 {
 /* line 1, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_discuss.scss */
 .discuss_projects {
   background: #001D38;
-  padding: 150px 0 50px 0;
+  padding: 150px 0 0px 0;
 }
 
 @media (max-width: 767px) {
@@ -3206,6 +3224,7 @@ h3 {
   /* line 1, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_portfolio.scss */
   .portfolio_area {
     padding-top: 60px;
+    padding-bottom: 40px;
   }
 }
 
