@@ -87,20 +87,45 @@
     margin: 0 auto 20px auto !important;
     border-radius: 50%;
     width: 30%;
+    transform: rotate(90deg);
 }
 
 @media (max-width: 1200px) {
     .headerPicture {
         width: 40%;
+        transform: rotate(90deg);
     }
 }
 @media (max-width: 1000px) {
     .headerPicture {
         width: 50%;
+        transform: rotate(90deg);
     }
 }
 
 .headerContent {
     z-index: 1;
     position: relative;
+}
+
+.tech-icon {
+    font-size: 100px;
+}
+
+.technologies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.technology {
+    text-align: center;
+    margin: 40px;
+}
+
+@media (max-width: 600px) {
+    .technology {
+        margin: 20px;
+    }
 }
