@@ -136,3 +136,25 @@
     color: white;
     text-decoration: underline;
 }
+
+.epicQuote {
+    padding: 0px 75px;
+}
+
+@media (max-width: 1500px) {
+    .epicQuote {
+        padding: 0px 60px
+    }
+}
+
+@media (max-width: 1200px) {
+    .epicQuote {
+        padding: 0px 40px
+    }
+}
+
+@media (max-width: 600px) {
+    .epicQuote {
+        padding: 0px 0px
+    }
+}
