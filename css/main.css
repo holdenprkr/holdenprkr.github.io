@@ -132,6 +132,7 @@
     text-align: left;
 }
 
-.mailToLink {
+.contactLink {
     color: white;
+    text-decoration: underline;
 }
