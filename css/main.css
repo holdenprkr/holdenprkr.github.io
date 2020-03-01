@@ -164,11 +164,11 @@
 }
 
 .projectList {
-    padding-left: 8%;
+    padding-left: 8% !important;
 }
 
 .projectListItem {
-    color: white;
-    text-align: left;
-    list-style-type: square;
+    color: white !important;
+    text-align: left !important;
+    list-style-type: square !important;
 }
