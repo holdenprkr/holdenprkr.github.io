@@ -39,18 +39,6 @@
 }
 
 @media (max-width: 1000px) {
-    /* .slicknav_icon {
-        display: none !important;
-    }
-
-    .slicknav_menu {
-        display: none !important;
-    }  */
-
-    /* #sticky-header {
-        display: none !important;
-    } */
-
     span::before {
         display: none;
     }
@@ -95,7 +83,7 @@
     }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 991px) {
     .headerPicture {
         width: 50%;
     }
@@ -171,4 +159,9 @@
     color: white !important;
     text-align: left !important;
     list-style-type: square !important;
+}
+
+.homeGrid {
+    margin-left: 45%;
+    margin-bottom: -10%;
 }
