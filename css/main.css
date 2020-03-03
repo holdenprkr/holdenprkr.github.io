@@ -38,10 +38,13 @@
     font-size: 3em;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 991px) {
     span::before {
         display: none;
     }
+}
+
+@media (max-width: 1000px) {
 
     .cryptoCurrentPrev {
         width: 100%;
@@ -162,6 +165,6 @@
 }
 
 .homeGrid {
-    margin-left: 45%;
+    margin-left: 60%;
     margin-bottom: -10%;
 }
