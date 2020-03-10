@@ -168,3 +168,9 @@
     margin-left: 60%;
     margin-bottom: -10%;
 }
+
+@media (max-width: 991px) {
+    .techHeader {
+        text-align: center !important;
+    }
+}
