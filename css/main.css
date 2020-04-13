@@ -82,13 +82,13 @@
 
 @media (max-width: 1200px) {
     .headerPicture {
-        width: 40%;
+        width: 35%;
     }
 }
 
 @media (max-width: 991px) {
     .headerPicture {
-        width: 50%;
+        width: 40%;
     }
 }
 
