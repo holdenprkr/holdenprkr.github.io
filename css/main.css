@@ -174,3 +174,8 @@
         text-align: center !important;
     }
 }
+
+.resumeButtonContainer {
+    text-align: center;
+    margin-bottom: 20px;
+}
