@@ -192,3 +192,36 @@
 .firstFePic {
     margin-bottom: 20px;
 }
+
+.frontEndeavorDiagram {
+    width: 80%;
+    height: 600px;
+}
+
+@media (max-width: 1200px) {
+    .frontEndeavorDiagram {
+        width: 80%;
+        height: 500px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .frontEndeavorDiagram {
+        width: 90%;
+        height: 400px;
+    }
+}
+
+@media (max-width: 775px) {
+    .frontEndeavorDiagram {
+        width: 95%;
+        height: 325px;
+    }
+}
+
+@media (max-width: 500px) {
+    .frontEndeavorDiagram {
+        width: 95%;
+        height: 235px;
+    }
+}
