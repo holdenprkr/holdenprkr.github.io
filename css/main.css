@@ -76,17 +76,25 @@
 
 .headerPicture {
     margin: 0 auto 20px auto !important;
-    border-radius: 50%;
-    width: 30%;
+    border-radius: 3%;
+    width: 25%;
+    -webkit-box-shadow: 3px 4px 25px 8px rgba(255, 255, 255, 0.27);
+    box-shadow: 3px 4px 25px 8px rgba(255, 255, 255, 0.27);
 }
 
 @media (max-width: 1200px) {
+    .headerPicture {
+        width: 30%;
+    }
+}
+
+@media (max-width: 991px) {
     .headerPicture {
         width: 35%;
     }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 500px) {
     .headerPicture {
         width: 40%;
     }
